@@ -1,0 +1,297 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Kickstarter Analysis_Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="background">
+        <h1 id= "topTitle" style="padding-left: 7pt;text-indent: 0pt;text-align: left;">2009-2016 Kickstarter Analysis
+                    BACKGROUND:</h1>
+        <p style="padding-top: 11pt;padding-left: 7pt;text-indent: 0pt;line-height: 108%"><span>Two Billion Dollars Have Been Raised Using The Massively Successful Crowdfunding Service, 
+            Kickstarter, But Not Every Project Has Found Success.<br/><br/></span>  <span> The Over 300,000 Projects Launched On Kickstarter, Only A Third Have Made It Through The Funding Process With A Positive Outcome.<br/>
+            Since Getting Funded On Kickstarter Requires Meeting Or Exceeding The Projects Initial Goal.</span><br/><br/>
+            Many Organizations Spend Months Looking Through Past Projects To Discover Some Trick To Finding Success.<br/><br/>
+            You Must Organize And Analyze A Database Of Four Thousand Past Projects In Order To Uncover Any Hidden Trends</p></div>
+    <div class="conclusions">
+    <h1 style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Conclusions:</h1>
+    <h2 class="s2" style="padding-top: 3pt;padding-left: 5pt;text-indent: 0pt;text-align: left;"><i>Figure 1-A</i></h2>
+    <table id="summaryTbl" style="border-collapse:collapse;margin-left:14.14pt" cellspacing="0">
+        <tr >
+            <th style="border-left-style:solid;border-left-width:1pt;border-left-color:#808080;background-color: #404040">
+                <p class="s3" style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Project Categories
+                </p>
+            </th>
+            <th style="background-color: #404040">
+                <p class="s3" style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Count of Successful Projects
+                </p>
+            </th>
+            <th style="background-color: #404040">
+                <p class="s3" style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Count of Failed Projects</p>
+            </th>
+            <th style="border-right-style:solid;border-right-width:1pt;background-color: #404040">
+                <p class="s3" style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Count of Cancelled Projects
+                </p>
+            </th>
+        </tr>
+        <tr >
+            <td class="rowLabels" style="border-left-style:solid;border-left-width:1pt;border-left-color:#808080;
+                background-color:#D9D9D9">
+                <p class="s4" style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Film & Video
+                </p>
+            </td>
+            <td style="background-color: #C5E6D0">
+                <p class="s4" style="padding-right: 4pt;text-indent: 0pt;text-align: right;">300</p>
+            </td>
+            <td style="background-color: #FAC6C8">
+                <p class="s4" style="padding-right: 5pt;text-indent: 0pt;text-align: right;">180</p>
+            </td>
+            <td style="border-right-style:solid;border-right-width:1pt; background-color:#FBF0F3">
+                <p class="s4" style="padding-right: 4pt;text-indent: 0pt;text-align: right;">40</p>
+            </td>
+        </tr>
+        <tr >
+            <td style="border-left-style:solid;border-left-width:1pt;border-left-color:#808080; background-color:#D9D9D9">
+                <p class="s4" style="padding-top: 1pt;padding-left: 5pt;text-indent: 0pt;text-align: left;">Food</p>
+            </td>
+            <td style="background-color: #F6F9F9">
+                <p class="s4" style="padding-top: 1pt;padding-right: 4pt;text-indent: 0pt;text-align: right;">34</p>
+            </td>
+            <td style="background-color:#FAD2D4">
+                <p class="s4" style="padding-top: 1pt;padding-right: 5pt;text-indent: 0pt;text-align: right;">140</p>
+            </td>
+            <td style="border-right-style:solid;border-right-width:1pt;background-color:#FBF7F8">
+                <p class="s4" style="padding-top: 1pt;padding-right: 4pt;text-indent: 0pt;text-align: right;">20</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="rowLabels" style="border-left-style:solid;border-left-width:1pt;border-left-color:#808080;background-color:#D9D9D9">
+                <p class="s4" style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Games</p>
+            </td>
+            <td style="background-color:#EDF7F3">
+                <p class="s4" style="padding-right: 4pt;text-indent: 0pt;text-align: right;">80</p>
+            </td>
+            <td style="background-color:#FAD2D4">
+                <p class="s4" style="padding-right: 5pt;text-indent: 0pt;text-align: right;">140</p>
+            </td>
+            <td style="border-right-style:solid;border-right-width:1pt;background-color:#FBFBFF">
+                <p class="s4" style="padding-right: 4pt;text-indent: 0pt;text-align: right;">0</p>
+            </td>
+        </tr>
+        <tr >
+            <td class="rowLabels" style="border-left-style:solid;border-left-width:1pt;border-left-color:#808080;background-color:#D9D9D9">
+                <p class="s4"
+                    style="padding-top: 1pt;padding-left: 5pt;text-indent: 0pt;text-align: left;">
+                    Journalism</p>
+            </td>
+            <td style="background-color:#FBFBFF">
+                <p class="s4"
+                    style="padding-top: 1pt;padding-right: 4pt;text-indent: 0pt;text-align: right;">0
+                </p>
+            </td>
+            <td style="background-color:#FBFBFF">
+                <p class="s4"
+                    style="padding-top: 1pt;padding-right: 4pt;text-indent: 0pt;text-align: right;">0
+                </p>
+            </td>
+            <td style="border-right-style:solid;border-right-width:1pt;background-color:#FBF5F8">
+                <p class="s4"
+                    style="padding-top: 1pt;padding-right: 4pt;text-indent: 0pt;text-align: right;">24
+                </p>
+            </td>
+        </tr>
+        <tr>
+                <td class="rowLabels" style="border-left-style:solid;border-left-width:1pt;border-left-color:#808080;background-color:#D9D9D9">
+                    <p class="s4"
+                        style="padding-top: 1pt;padding-left: 5pt;text-indent: 0pt;text-align: left;">
+                        Music</p>
+                </td>
+                <td style="background-color:#FBFBFF">
+                    <p class="s4"
+                        style="padding-top: 1pt;padding-right: 4pt;text-indent: 0pt;text-align: right;">540
+                    </p>
+                </td>
+                <td style="background-color:#FBFBFF">
+                    <p class="s4"
+                        style="padding-top: 1pt;padding-right: 4pt;text-indent: 0pt;text-align: right;">120
+                    </p>
+                </td>
+                <td style="border-right-style:solid;border-right-width:1pt;background-color:#FBF5F8">
+                    <p class="s4"
+                        style="padding-top: 1pt;padding-right: 4pt;text-indent: 0pt;text-align: right;">20
+                    </p>
+                </td>
+            </tr>
+        <tr>
+            <td class="rowLabels" style="border-left-style:solid;border-left-width:1pt;border-left-color:#808080; background-color:#D9D9D9">
+                <p class="s4" style="padding-left: 5pt;padding-right: 8pt;text-indent: 0pt;text-align: left;">Photography</p>
+            </td>
+            <td style="background-color:#EAF5EE">
+                <p class="s4" style="padding-right: 4pt;text-indent: 0pt;text-align: right;">103</p>
+            </td>
+            <td style="background-color:#FBDADC">
+                <p class="s4" style="padding-right: 5pt;text-indent: 0pt;text-align: right;">117</p>
+            </td>
+            <td style="border-right-style:solid;border-right-width:1pt; background-color:#FBFBFF">
+                <p class="s4" style="padding-right: 4pt;text-indent: 0pt;text-align: right;">0</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="rowLabels" style="border-left-style:solid;border-left-width:1pt;border-left-color:#808080; background-color:#D9D9D9">
+                <p class="s4" style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Publishing
+                </p>
+            </td>
+            <td style="background-color:#EDF7F3">
+                <p class="s4" style="padding-right: 4pt;text-indent: 0pt;text-align: right;">80</p>
+            </td>
+            <td style="background-color:#FAD6D9">
+                <p class="s4" style="padding-right: 5pt;text-indent: 0pt;text-align: right;">127</p>
+            </td>
+            <td style="border-right-style:solid;border-right-width:1pt;background-color:#FBF4F6">
+                <p class="s4" style="padding-right: 4pt;text-indent: 0pt;text-align: right;">30</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="rowLabels" style="border-left-style:solid;border-left-width:1pt;border-left-color:#808080; background-color:#D9D9D9">
+                <p class="s4"
+                    style="padding-top: 1pt;padding-left: 5pt;text-indent: 0pt;text-align: left;">
+                    Technology</p>
+            </td>
+            <td style="background-color:#D5ECDF">
+                <p class="s4"
+                    style="padding-top: 1pt;padding-right: 4pt;text-indent: 0pt;text-align: right;">
+                    209</p>
+            </td>
+            <td style="background-color:#FABCC0">
+                <p class="s4"
+                    style="padding-top: 1pt;padding-right: 5pt;text-indent: 0pt;text-align: right;">
+                    213</p>
+            </td>
+            <td style="border-right-style:solid;border-right-width:1pt; background-color:#FAC6C9">
+                <p class="s4"
+                    style="padding-top: 1pt;padding-right: 4pt;text-indent: 0pt;text-align: right;">
+                    178</p>
+            </td>
+        </tr>
+        <tr>
+                <td class="rowLabels" style="border-left-style:solid;border-left-width:1pt;border-left-color:#808080; background-color:#D9D9D9">
+                    <p class="s4"
+                        style="padding-top: 1pt;padding-left: 5pt;text-indent: 0pt;text-align: left;">
+                        Theater</p>
+                </td>
+                <td style="background-color:#FBFBFF">
+                    <p class="s4"
+                        style="padding-top: 1pt;padding-right: 4pt;text-indent: 0pt;text-align: right;">839
+                    </p>
+                </td>
+                <td style="background-color:#FBFBFF">
+                    <p class="s4"
+                        style="padding-top: 1pt;padding-right: 4pt;text-indent: 0pt;text-align: right;">493
+                    </p>
+                </td>
+                <td style="border-right-style:solid;border-right-width:1pt; background-color:#FBF5F8">
+                    <p class="s4"
+                        style="padding-top: 1pt;padding-right: 4pt;text-indent: 0pt;text-align: right;">37
+                    </p>
+                </td>
+            </tr>
+        <tr>
+            <td style="border-left-style:solid;border-left-width:1pt;border-left-color:#808080;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#808080; background-color:#404040">
+                <p class="s3" style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Grand</p>
+                <p class="s3" style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Total</p>
+            </td>
+            <td style="border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#808080; background-color:#404040">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                <p class="s3" style="padding-right: 4pt;text-indent: 0pt;text-align: right;">2185</p>
+            </td>
+            <td style="border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#808080;background-color:#404040">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                <p class="s3" style="padding-right: 4pt;text-indent: 0pt;text-align: right;">1530</p>
+            </td>
+            <td style="border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#808080;border-right-style:solid;border-right-width:1pt; background-color:#404040">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                <p class="s3" style="padding-right: 4pt;text-indent: 0pt;text-align: right;">349</p>
+            </td>
+        </tr>
+    </table>
+    <p class="comments one" >Overall, based on the count of Successful project states, as shown in Figure 1-A, Theater, Music and Film & Video categories are in the top 3. 
+            <br/>However, they also have most failure states compared to other categories. This could indicate that there is likely much more participation in these categories overall.<br/><br/>
+            <span class='footerNote'>Note: The project state “Live” is only used in the current year and thus not comparable across the analysis timeframe. Project state “Live” will not be included in analysis comments.
+            </span></p>
+    <h2 class="s2" style="padding-left: 5pt;text-indent: 0pt;text-align: left;"><i>Figure 1-B</i></h2>
+    <h2 style="padding-left: 14pt;text-indent: 0pt;text-align: left;"><span><img id='img1' src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/3058724/Image_001.png' alt=''></span></h2>
+        <p class="comments" style="padding-top: 3pt;padding-left: 7pt;text-indent: 0pt;text-align: left;">Examining the aggregated results across all categories, as shown in Figure 1-B, confirms that Theater has far outpaced all other categories in number of records listed. It can also be seen that the Music category, which is 2nd in number of records, lags significantly compared to Theater at 2x its own record count.
+    </p>
+    <h2 class="s2" style="padding-top: 3pt;padding-left: 5pt;text-indent: 0pt;text-align: left;"><i>Figure 2-A</i></h2>
+    <h2 style="padding-left: 14pt;text-indent: 0pt;text-align: left;"><span><img id='img2' src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/3058724/Image_002.png' alt=''></span></h2>
+    <p class="comments" style="padding-top: 3pt;padding-left: 7pt;text-indent: 0pt;text-align: left;">At a more
+        granular level, Plays, a sub-category of Theater, has a similar ratio of Successful to Failed project states
+        when compared to other members of the same sub-category e.g. Spaces and Musicals.<br/><br/>
+        However, as indicated in Figure 2-A, it’s clear that Plays is the dominant sub-category for Theater.
+    <h2 class="s2" style="padding-bottom: 1pt;padding-left: 5pt;text-indent: 0pt;text-align: left;"><i>Figure 3-A</i></h2>
+    <h2 style="padding-left: 14pt;text-indent: 0pt;text-align: left;"><span><img id='img3' src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/3058724/Image_003.png' alt=''></span></h2>
+    <p class="comments" style="padding-top: 3pt;padding-left: 7pt;text-indent: 0pt;text-align: left;">Figure 3-A shows
+        increases from 2009 to 2012 for both Successful and Failed project states, but with a noticeable gap between the
+        2 states.In 2014 the sum
+        of records for all project states more than doubled from the previous year.<br/> <br/>During this same period the gap
+        between Successful and Failed project states began to converge, and Canceled project states began to rise.<br/>Movement towards
+        convergence of Successful and Failed project states may be due, in part, to increased competition among projects
+        for donations.<br/><br/>However, in 2016 a decrease among
+        all 3 project states can be observed.<br /><br/>Given that all 3 project states
+        show a decrease in 2016; perhaps a more fundamental matter than category engagement is influencing the results.
+    </p>
+    <h2 class="s2" style="padding-top: 1pt;padding-left: 5pt;text-indent: 0pt;text-align: left;"></i>Figure 3-B</i></h2>
+    <h2 style="padding-left: 15pt;text-indent: 0pt;text-align: left;"><span><img id='img4' src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/3058724/Image_004.png' alt=''></span></h2>
+    <p class="comments" style="padding-top: 3pt;padding-left: 7pt;text-indent: 0pt;text-align: left;">The shift in
+        trend during 2016, as seen in Figure 3-A, may be associated with an imbalance in marginal value generated by
+        each new Kickstarter Project and each new Kickstarter Backer.<br/><br/>Figure 3-B shows
+        2 scatter charts which illustrate the relationship between Average Goal/Pledge Amounts(Y-axis) and the Discrete
+        Number of Backer Pledges/Number of Unique Project IDs(X-axis).<br/><br/>The uppermost
+        chart shows a positive linear relationship between Average Goal Amounts and the Number of Unique Project IDs
+        with a correlation strength of 57.9%. <br/><br/>Simply put, for each additional project participating in Kickstater the
+        value of the Average Goal Amount increases about $77.<br/><br/>Conversely, the
+        bottom most chart shows no significant relationship exists between Average Pledge Amounts and the Discrete Number
+        of Backer Pledges. Average Pledge Amounts do not respond in kind with additional Backer Pledges as Average Goal
+        Amount responds to additional Project IDs.<br/><br/>This suggests
+        that Backer’s Pledge Amounts are constrained by more than the quantity of active pledgers each year.</p>
+    <h2 class="s2" style="padding-top: 1pt;padding-left: 5pt;text-indent: 0pt;text-align: left;">Figure 3-C.1</h2>
+    <h2 style="padding-left: 14pt;text-indent: 0pt;text-align: left;"><span><img id='img5 'src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/3058724/Image_005.png' alt=''></span></h2>
+    <h2 class="s2" style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Figure 3-C.2</h2>
+    <h2 style="padding-left: 14pt;text-indent: 0pt;text-align: left;"><span><img id='img6' src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/3058724/Image_006.png' alt=''></span></h2>
+                <p class="comments" style="padding-top: 3pt;padding-left: 7pt;text-indent: 0pt;text-align: left;">
+                        Figures 3-C.1 and 3-C.2 show that in 2013 a large influx of Backer Pledge transactions occurred
+                            compared to open projects in Kickstarter. Despite this substantial increase of pledge transactions; the
+                            Average Backer Pledge Amount showed no relative change.<br/><br/>A sustained imbalance in marginal
+                            value of additional Backer Pledges to Active Projects in each year could lead to an increase in competition
+                            among projects given the tightening supply of pledge funds. A scenario like this was observed previously in
+                            <i>Figure 3-A </i>with rising levels of Failed project state records beginning in 2013.<br/><br/>
+                            However, a deeper analysis is
+                            needed to determine the number of Backer Pledge Transactions originating from a unique set of independent
+                            Backers, and number of Backers that pledged multiple times.</p></div>
+    <div class="limitations">
+    <h2>Limitations & Suggestions:</h2>
+    <h2 class="points" style="padding-top: 3pt;padding-left: 7pt;text-indent: 0pt;text-align: left;">Demographic
+        Information<span class="s7">-Data on both the project owner and pledger would allow for a deeper analysis of
+            common or opposing attributes that may affect behavior.<br/>Data points such as age, gender, education,
+            nationality would be quite helpful. <br/><br/>Particularly with a focus on income levels of Backers as “wallet size”
+            is an important factor to consider.</span></h2>
+    <h2 class="points" style="padding-top: 8pt;padding-left: 7pt;text-indent: 0pt;text-align: left;">Variable
+        Refinement<span class="s7">- Analysis on discrete data points, such as “Count”, out any context can limit the
+            ability to answer more nuanced questions.<br/><br/>
+            For example, it may advantageous to divide the count of project state in a category by the grand total of all
+            records in the same category. <br/><br/>
+            This can give an idea of “Throughput” for each state, and essentially convey each state per given opportunity. This
+            helps control for major swings in the data and helps to spot trends more efficiently.</span></h2>
+    <h2 class="points" style="padding-top: 8pt;padding-left: 7pt;text-indent: 0pt;text-align: left;">Descriptive
+        Statistics<span class="s7">- Performing a descriptive stat analysis on key data points can give better direction
+            understanding during an exploratory analysis. A Box &amp; Whisker plot and Histogram can give good
+            indications of outlier behavior and central tendency.</span></h2>
+</div>
+</body>
+
+</html>
